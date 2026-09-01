@@ -1,0 +1,18 @@
+{
+  "$schema": "../meta/catalog.schema.json",
+  "catalog_version": "1.0",
+  "locale": "en",
+  "source": "https://neuromedia.cloud/",
+  "generated_at": "2026-09-01T00:00:00Z",
+  "disclaimer": "A public informational snapshot. Confirm current price, availability, and terms on the live marketplace product page.",
+  "categories": [
+    {"slug": "ai-models-and-api", "name": "AI Models & APIs", "description": "APIs and access plans for AI products, bots, and business workflows."},
+    {"slug": "ai-infrastructure", "name": "AI Infrastructure", "description": "Inference, compute, and production-ready AI infrastructure."},
+    {"slug": "automation", "name": "Automation", "description": "Agents, workflows, and integrations for operations and growth."}
+  ],
+  "featured_products": [
+    {"slug": "chatgpt-api-5-5-100-requests-day", "name": "ChatGPT API 5.5 Agents & Tools — 100 requests per day", "category": "ai-models-and-api", "price_usd": 10, "price_display": "10 USD", "availability": "in_stock", "delivery": "subscription", "url": "https://neuromedia.cloud/", "summary": "Access for AI assistants, agent/tools workflows, CRM, bots, and business automation with a controlled daily limit."},
+    {"slug": "google-veo-3-1-api", "name": "Google Veo 3.1 API", "category": "ai-models-and-api", "price_usd": 0.03, "price_display": "0.03 USD", "availability": "in_stock", "delivery": "manual", "url": "https://neuromedia.cloud/", "summary": "AI video for advertising clips, product demos, social content, and visual-hypothesis testing."},
+    {"slug": "chatgpt-api-5-5-1000-requests-day", "name": "ChatGPT API 5.5 Agents & Tools — 1,000 requests per day", "category": "ai-models-and-api", "price_usd": 30, "price_display": "30 USD", "availability": "in_stock", "delivery": "subscription", "url": "https://neuromedia.cloud/", "summary": "An expanded daily limit for AI agents, integrations, and automation."}
+  ]
+}
