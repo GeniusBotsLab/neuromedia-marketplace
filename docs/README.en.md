@@ -38,15 +38,8 @@ A machine-readable public catalog snapshot is maintained in:
 
 - [Russian catalog](../content/catalog/catalog.ru.json)
 - [English catalog](../content/catalog/catalog.en.json)
-- [Synchronization policy and schema](synchronization.md)
 
-These files intentionally exclude marketplace source code, supplier links, keys, customer data, private inventory, and infrastructure configuration. Repository prices and availability are informational; always confirm the live product page before payment.
-
-## Synchronization
-
-The repository is prepared for scheduled updates of categories, public product data, prices, and statuses. Its synchronization script consumes **only a purpose-built public JSON export** and validates the schema, source domain, and secret-free content before it can create a commit.
-
-See [docs/synchronization.md](synchronization.md).
+The files contain only public product names, descriptions, USD prices, availability labels, and product links. Repository prices and availability are informational; always confirm the live product page before payment.
 
 ---
 
