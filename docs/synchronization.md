@@ -22,11 +22,12 @@
 
 ## Подключение
 
-1. В админке/серверной части магазина подготовить endpoint, например `https://neuromedia.cloud/public/catalog-export.json`.
-2. Endpoint обязан отдавать только JSON по утверждённой схеме и не требовать секретного токена.
-3. В GitHub добавить secret `NEUROMEDIA_PUBLIC_CATALOG_URL` со значением URL экспорта. Secret скрывает технический путь, хотя сам endpoint должен оставаться безопасным при раскрытии.
+1. Текущий полный публичный каталог уже доступен на сайте через `https://neuromedia.cloud/api/v1/categories` и `https://neuromedia.cloud/api/v1/products?sort=newest&page=1&per_page=100`; он содержит 81 публичную позицию на момент публикации.
+2. Для регулярного production-обновления подготовить выделенный export, например `https://neuromedia.cloud/public/catalog-export.json`, который отдаёт только JSON по утверждённой схеме.
+3. В GitHub добавить secret `NEUROMEDIA_PUBLIC_CATALOG_URL` со значением URL выделенного export. Secret скрывает технический путь, хотя endpoint должен оставаться безопасным при раскрытии.
 4. Включить workflow **Sync public catalog** вручную или по расписанию. Он создаёт Pull Request, а не пушит изменения напрямую в `main`.
 5. Перед merge проверить список изменений: категории, названия, цены, статусы и публичные ссылки.
+6. Скрипт `scripts/export_current_public_catalog.py` использован только для первичного безопасного снимка из уже открытого клиентского API; для дальнейшей автоматизации использовать выделенный export.
 
 ## Частота
 

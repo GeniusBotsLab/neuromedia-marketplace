@@ -1,18 +1,1053 @@
 {
   "$schema": "../meta/catalog.schema.json",
-  "catalog_version": "1.0",
+  "catalog_version": "1.1",
   "locale": "en",
-  "source": "https://neuromedia.cloud/",
-  "generated_at": "2026-09-01T00:00:00Z",
+  "source": "https://neuromedia.cloud",
+  "generated_at": "2026-09-01T09:17:09Z",
   "disclaimer": "A public informational snapshot. Confirm current price, availability, and terms on the live marketplace product page.",
   "categories": [
-    {"slug": "ai-models-and-api", "name": "AI Models & APIs", "description": "APIs and access plans for AI products, bots, and business workflows."},
-    {"slug": "ai-infrastructure", "name": "AI Infrastructure", "description": "Inference, compute, and production-ready AI infrastructure."},
-    {"slug": "automation", "name": "Automation", "description": "Agents, workflows, and integrations for operations and growth."}
+    {
+      "slug": "agents",
+      "name": "Agents",
+      "description": "AI Agents for business: digital assistants that scale expertise, accelerate decisions and work with data and tools under team control."
+    },
+    {
+      "slug": "chat-api",
+      "name": "Chat API",
+      "description": "Chat API for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "description": "Claude for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "claude-code-api",
+      "name": "Claude Code API",
+      "description": "Claude Code API for business: AI coding agents, repository analysis, testing, refactoring, documentation and code review for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "ElevenLabs for business: voice AI, music generation, text-to-speech, dubbing, localization and audio production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "flux",
+      "name": "Flux",
+      "description": "Flux for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "gemini",
+      "name": "Gemini",
+      "description": "Gemini for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "generaciya-izobrazheniy",
+      "name": "Image generation",
+      "description": "Image generation for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "gpt",
+      "name": "GPT",
+      "description": "GPT for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "gpt-4o-image",
+      "name": "GPT-4o Image",
+      "description": "GPT-4o Image for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "gpt-image",
+      "name": "GPT Image",
+      "description": "GPT Image for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "grok-imagine",
+      "name": "Grok Imagine",
+      "description": "Grok Imagine for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "hailuo",
+      "name": "Hailuo",
+      "description": "Hailuo for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "hosting",
+      "name": "Hosting",
+      "description": "Hosting for business: hosting, proxy infrastructure, servers, queues, monitoring, RAG backend and production workloads for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "description": "Ideogram for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "imagen",
+      "name": "Imagen",
+      "description": "Imagen for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "kling",
+      "name": "Kling",
+      "description": "Kling for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "nano-banana",
+      "name": "Nano Banana",
+      "description": "Nano Banana for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "omnihuman",
+      "name": "OmniHuman",
+      "description": "OmniHuman for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "description": "OpenAI for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "proxy-servers",
+      "name": "Proxy servers",
+      "description": "Proxy servers for business: hosting, proxy infrastructure, servers, queues, monitoring, RAG backend and production workloads for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "qwen",
+      "name": "Qwen",
+      "description": "Qwen for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "description": "Runway for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "seedance",
+      "name": "Seedance",
+      "description": "Seedance for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "seedream",
+      "name": "Seedream",
+      "description": "Seedream for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "suno",
+      "name": "Suno",
+      "description": "Suno for business: voice AI, music generation, text-to-speech, dubbing, localization and audio production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "topaz",
+      "name": "Topaz",
+      "description": "Topaz for business: AI image generation, editing, brand visuals, product-card assets and creative production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "veo",
+      "name": "Veo",
+      "description": "Veo for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "volcengine",
+      "name": "Volcengine",
+      "description": "Volcengine for business: AI APIs, language models, multimodal workflows, integrations, monitoring and production controls for faster workflows, safer adoption and measurable ROI."
+    },
+    {
+      "slug": "wan",
+      "name": "Wan",
+      "description": "Wan for business: AI video generation, image-to-video, motion control, cinematic prompts and short-form production for faster workflows, safer adoption and measurable ROI."
+    }
   ],
   "featured_products": [
-    {"slug": "chatgpt-api-5-5-100-requests-day", "name": "ChatGPT API 5.5 Agents & Tools — 100 requests per day", "category": "ai-models-and-api", "price_usd": 10, "price_display": "10 USD", "availability": "in_stock", "delivery": "subscription", "url": "https://neuromedia.cloud/", "summary": "Access for AI assistants, agent/tools workflows, CRM, bots, and business automation with a controlled daily limit."},
-    {"slug": "google-veo-3-1-api", "name": "Google Veo 3.1 API", "category": "ai-models-and-api", "price_usd": 0.03, "price_display": "0.03 USD", "availability": "in_stock", "delivery": "manual", "url": "https://neuromedia.cloud/", "summary": "AI video for advertising clips, product demos, social content, and visual-hypothesis testing."},
-    {"slug": "chatgpt-api-5-5-1000-requests-day", "name": "ChatGPT API 5.5 Agents & Tools — 1,000 requests per day", "category": "ai-models-and-api", "price_usd": 30, "price_display": "30 USD", "availability": "in_stock", "delivery": "subscription", "url": "https://neuromedia.cloud/", "summary": "An expanded daily limit for AI agents, integrations, and automation."}
+    {
+      "slug": "proxy-servers-15000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 15 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 875.0,
+      "price_display": "875 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-15000-europe-unlimited",
+      "summary": "15 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: потоки и скорость без ограничений."
+    },
+    {
+      "slug": "proxy-servers-25000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 25 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 1500.0,
+      "price_display": "1500 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-25000-europe-unlimited",
+      "summary": "25 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: потоки и скорость без ограничений."
+    },
+    {
+      "slug": "proxy-servers-40000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 40 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 2250.0,
+      "price_display": "2250 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-40000-europe-unlimited",
+      "summary": "40 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: потоки и скорость без ограничений."
+    },
+    {
+      "slug": "tor-proxy-pool-europe-unlimited",
+      "name": "TOR proxy pool",
+      "category": "proxy-servers",
+      "price_usd": 125.0,
+      "price_display": "125 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/tor-proxy-pool-europe-unlimited",
+      "summary": "TOR-пул: 10 000 IP с ротацией для нестандартных задач. Гео Европа, безлимитный трафик, высокая скорость, HTTP/SOCKS5."
+    },
+    {
+      "slug": "proxy-servers-1000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 1 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 12.5,
+      "price_display": "12.5 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-1000-europe-unlimited",
+      "summary": "1 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: до 1 000 потоков."
+    },
+    {
+      "slug": "proxy-servers-10000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 10 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 625.0,
+      "price_display": "625 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-10000-europe-unlimited",
+      "summary": "10 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: потоки и скорость без ограничений."
+    },
+    {
+      "slug": "chatgpt-api-55-agents-tools-5k",
+      "name": "ChatGPT API 5.5 Agents & Tools — 5 000 запросов в день",
+      "category": "openai",
+      "price_usd": 100.0,
+      "price_display": "100 USD",
+      "availability": "in_stock",
+      "delivery": "subscription",
+      "url": "https://neuromedia.cloud/catalog/openai/chatgpt-api-55-agents-tools-5k",
+      "summary": "ChatGPT API 5.5 Agents & Tools access for AI assistants, agent workflows, CRM, bots, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-agents-tools-1k",
+      "name": "ChatGPT API 5.5 Agents & Tools — 1 000 запросов в день",
+      "category": "openai",
+      "price_usd": 30.0,
+      "price_display": "30 USD",
+      "availability": "in_stock",
+      "delivery": "subscription",
+      "url": "https://neuromedia.cloud/catalog/openai/chatgpt-api-55-agents-tools-1k",
+      "summary": "ChatGPT API 5.5 Agents & Tools access for AI assistants, agent workflows, CRM, bots, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-agents-tools-100",
+      "name": "ChatGPT API 5.5 Agents & Tools — 100 запросов в день",
+      "category": "openai",
+      "price_usd": 10.0,
+      "price_display": "10 USD",
+      "availability": "in_stock",
+      "delivery": "subscription",
+      "url": "https://neuromedia.cloud/catalog/openai/chatgpt-api-55-agents-tools-100",
+      "summary": "ChatGPT API 5.5 Agents & Tools access for AI assistants, agent workflows, CRM, bots, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-agents-tools-10k",
+      "name": "ChatGPT API 5.5 Agents & Tools — 10 000 запросов в день",
+      "category": "openai",
+      "price_usd": 200.0,
+      "price_display": "200 USD",
+      "availability": "in_stock",
+      "delivery": "subscription",
+      "url": "https://neuromedia.cloud/catalog/openai/chatgpt-api-55-agents-tools-10k",
+      "summary": "ChatGPT API 5.5 Agents & Tools access for AI assistants, agent workflows, CRM, bots, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-sonnet-4-6-api",
+      "name": "Claude Sonnet 4.6 API",
+      "category": "claude",
+      "price_usd": 0.85,
+      "price_display": "0.85 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude/claude-sonnet-4-6-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "wan-2-7-image-api",
+      "name": "Wan 2.7 Image API",
+      "category": "wan",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/wan/wan-2-7-image-api",
+      "summary": "Wan 2.7 Image API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "gpt-5-5-api",
+      "name": "GPT‑5.5 API",
+      "category": "gpt",
+      "price_usd": 0.14,
+      "price_display": "0.14 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/gpt/gpt-5-5-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "runway-api",
+      "name": "Runway API",
+      "category": "runway",
+      "price_usd": 0.06,
+      "price_display": "0.06 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/runway/runway-api",
+      "summary": "Runway API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "seedance-2-0-fast-api",
+      "name": "Seedance 2.0 Fast API",
+      "category": "seedance",
+      "price_usd": 0.05,
+      "price_display": "0.05 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/seedance/seedance-2-0-fast-api",
+      "summary": "Seedance 2.0 Fast API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "grok-imagine-video-1-5-api",
+      "name": "Grok Imagine Video 1.5 API",
+      "category": "grok-imagine",
+      "price_usd": 0.01,
+      "price_display": "0.01 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/grok-imagine/grok-imagine-video-1-5-api",
+      "summary": "Grok Imagine Video 1.5 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "hailuo-2-3-api",
+      "name": "Hailuo 2.3 API",
+      "category": "hailuo",
+      "price_usd": 0.15,
+      "price_display": "0.15 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hailuo/hailuo-2-3-api",
+      "summary": "Hailuo 2.3 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "claude-opus-4-8-api",
+      "name": "Claude Opus 4.8 API",
+      "category": "claude",
+      "price_usd": 2.0,
+      "price_display": "2 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude/claude-opus-4-8-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "seedance-2-0-api",
+      "name": "Seedance 2.0 API",
+      "category": "seedance",
+      "price_usd": 0.06,
+      "price_display": "0.06 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/seedance/seedance-2-0-api",
+      "summary": "Seedance 2.0 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "suno-api",
+      "name": "Suno API",
+      "category": "suno",
+      "price_usd": 0.01,
+      "price_display": "0.01 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/suno/suno-api",
+      "summary": "Suno API API for AI music and audio content for videos, ads, games, apps, social media, and branded media: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "gemini-omni-video-api",
+      "name": "Gemini Omni Video API",
+      "category": "gemini",
+      "price_usd": 0.45,
+      "price_display": "0.45 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/gemini/gemini-omni-video-api",
+      "summary": "Gemini Omni Video API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "kling-3-0-turbo-api",
+      "name": "Kling 3.0 Turbo API",
+      "category": "kling",
+      "price_usd": 0.09,
+      "price_display": "0.09 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/kling/kling-3-0-turbo-api",
+      "summary": "Kling 3.0 Turbo API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "seedance-2-0-mini-api",
+      "name": "Seedance 2.0 Mini API",
+      "category": "seedance",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/seedance/seedance-2-0-mini-api",
+      "summary": "Seedance 2.0 Mini API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "qwen-z-image-api",
+      "name": "Qwen Z‑Image API",
+      "category": "qwen",
+      "price_usd": 0.01,
+      "price_display": "0.01 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/qwen/qwen-z-image-api",
+      "summary": "Qwen Z‑Image API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "seedream-4-5-api",
+      "name": "Seedream 4.5 API",
+      "category": "seedream",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/seedream/seedream-4-5-api",
+      "summary": "Seedream 4.5 API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "nano-banana-2-api",
+      "name": "Nano Banana 2 API",
+      "category": "nano-banana",
+      "price_usd": 0.04,
+      "price_display": "0.04 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/nano-banana/nano-banana-2-api",
+      "summary": "Nano Banana 2 API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "grok-imagine-api",
+      "name": "Grok Imagine API",
+      "category": "grok-imagine",
+      "price_usd": 0.01,
+      "price_display": "0.01 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/grok-imagine/grok-imagine-api",
+      "summary": "Grok Imagine API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "flux-2-flex-api",
+      "name": "Flux 2 Flex API",
+      "category": "flux",
+      "price_usd": 0.07,
+      "price_display": "0.07 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/flux/flux-2-flex-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "google-imagen-4-api",
+      "name": "Google Imagen 4 API",
+      "category": "imagen",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/imagen/google-imagen-4-api",
+      "summary": "Google Imagen 4 API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "elevenlabs-text-to-speech-api",
+      "name": "ElevenLabs Text to Speech API",
+      "category": "elevenlabs",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/elevenlabs/elevenlabs-text-to-speech-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "kling-3-0-api",
+      "name": "Kling 3.0 API",
+      "category": "kling",
+      "price_usd": 0.07,
+      "price_display": "0.07 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/kling/kling-3-0-api",
+      "summary": "Kling 3.0 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "omnihuman-1-5-api",
+      "name": "OmniHuman 1.5 API",
+      "category": "omnihuman",
+      "price_usd": 0.14,
+      "price_display": "0.14 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/omnihuman/omnihuman-1-5-api",
+      "summary": "OmniHuman 1.5 API API for avatars, talking characters, lip-sync videos, and personalized clips for marketing, training, and customer communication: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "grok-imagine-extend-api",
+      "name": "Grok Imagine Extend API",
+      "category": "grok-imagine",
+      "price_usd": 0.05,
+      "price_display": "0.05 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/grok-imagine/grok-imagine-extend-api",
+      "summary": "Grok Imagine Extend API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "topaz-image-upscaler-api",
+      "name": "Topaz Image Upscaler API",
+      "category": "topaz",
+      "price_usd": 0.05,
+      "price_display": "0.05 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/topaz/topaz-image-upscaler-api",
+      "summary": "Topaz Image Upscaler API API for image enhancement and upscaling for product cards, ad visuals, archives, and production assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "flux-2-pro-api",
+      "name": "Flux 2 Pro API",
+      "category": "flux",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/flux/flux-2-pro-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "ideogram-v3-reframe-api",
+      "name": "Ideogram V3 Reframe API",
+      "category": "ideogram",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/ideogram/ideogram-v3-reframe-api",
+      "summary": "Ideogram V3 Reframe API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "openai-4o-image-api",
+      "name": "OpenAI 4o Image API",
+      "category": "gpt-4o-image",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/gpt-4o-image/openai-4o-image-api",
+      "summary": "GPT Image 2 API test package for product cards, ads, and visual concepts before scaling."
+    },
+    {
+      "slug": "elevenlabs-v3-api",
+      "name": "ElevenLabs V3 API",
+      "category": "elevenlabs",
+      "price_usd": 0.07,
+      "price_display": "0.07 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/elevenlabs/elevenlabs-v3-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "ideogram-v3-api",
+      "name": "Ideogram V3 API",
+      "category": "ideogram",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/ideogram/ideogram-v3-api",
+      "summary": "Ideogram V3 API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "gpt-image-2-api",
+      "name": "GPT Image 2 API",
+      "category": "gpt-image",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/gpt-image/gpt-image-2-api",
+      "summary": "GPT Image 2 API test package for product cards, ads, and visual concepts before scaling."
+    },
+    {
+      "slug": "wan-2-7-image-pro-api",
+      "name": "Wan 2.7 Image Pro API",
+      "category": "wan",
+      "price_usd": 0.06,
+      "price_display": "0.06 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/wan/wan-2-7-image-pro-api",
+      "summary": "Wan 2.7 Image Pro API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "wan-2-7-video-api",
+      "name": "Wan 2.7 Video API",
+      "category": "wan",
+      "price_usd": 0.08,
+      "price_display": "0.08 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/wan/wan-2-7-video-api",
+      "summary": "Wan 2.7 Video API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "volcengine-lip-sync-api",
+      "name": "Volcengine Lip Sync API",
+      "category": "volcengine",
+      "price_usd": 0.04,
+      "price_display": "0.04 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/volcengine/volcengine-lip-sync-api",
+      "summary": "Volcengine Lip Sync API API for avatars, talking characters, lip-sync videos, and personalized clips for marketing, training, and customer communication: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "nano-banana-pro-api",
+      "name": "Nano Banana Pro API",
+      "category": "nano-banana",
+      "price_usd": 0.09,
+      "price_display": "0.09 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/nano-banana/nano-banana-pro-api",
+      "summary": "Nano Banana Pro API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "gpt-image-1-5-api",
+      "name": "GPT Image 1.5 API",
+      "category": "gpt-image",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/gpt-image/gpt-image-1-5-api",
+      "summary": "GPT Image 2 API test package for product cards, ads, and visual concepts before scaling."
+    },
+    {
+      "slug": "qwen-image-api",
+      "name": "Qwen Image API",
+      "category": "qwen",
+      "price_usd": 0.02,
+      "price_display": "0.02 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/qwen/qwen-image-api",
+      "summary": "Qwen Image API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "kling-ai-avatar-api",
+      "name": "Kling AI Avatar API",
+      "category": "kling",
+      "price_usd": 0.04,
+      "price_display": "0.04 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/kling/kling-ai-avatar-api",
+      "summary": "Kling AI Avatar API API for avatars, talking characters, lip-sync videos, and personalized clips for marketing, training, and customer communication: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "seedream-5-0-lite-api",
+      "name": "Seedream 5.0 Lite API",
+      "category": "seedream",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/seedream/seedream-5-0-lite-api",
+      "summary": "Seedream 5.0 Lite API API for controlled image generation and editing for e-commerce, ads, landing pages, social content, and brand assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "google-veo-3-1-api",
+      "name": "Google Veo 3.1 API",
+      "category": "veo",
+      "price_usd": 0.03,
+      "price_display": "0.03 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/veo/google-veo-3-1-api",
+      "summary": "Google Veo 3.1 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "elevenlabs-sound-effect-v2-api",
+      "name": "ElevenLabs Sound Effect V2 API",
+      "category": "elevenlabs",
+      "price_usd": 0.01,
+      "price_display": "0.01 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/elevenlabs/elevenlabs-sound-effect-v2-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-haiku-4-5-api",
+      "name": "Claude Haiku 4.5 API",
+      "category": "claude",
+      "price_usd": 0.28,
+      "price_display": "0.28 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude/claude-haiku-4-5-api",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "topaz-video-upscaler-api",
+      "name": "Topaz Video Upscaler API",
+      "category": "topaz",
+      "price_usd": 0.04,
+      "price_display": "0.04 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/topaz/topaz-video-upscaler-api",
+      "summary": "Topaz Video Upscaler API API for video upscaling and enhancement for ads, presentations, archives, product demos, and reusable media assets: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "kling-2-6-api",
+      "name": "Kling 2.6 API",
+      "category": "kling",
+      "price_usd": 0.28,
+      "price_display": "0.28 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/kling/kling-2-6-api",
+      "summary": "Kling 2.6 API API for AI video for ads, product demos, social content, presentation scenes, and fast creative testing: faster production, more test variants, and lower manual content costs."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-5-3600",
+      "name": "Выделенный сервер PowerVPS — Ryzen 5 3600, 64 GB RAM, 2x480 GB NVMe",
+      "category": "hosting",
+      "price_usd": 55.0,
+      "price_display": "55 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-5-3600",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 5 3600, 64 GB RAM, 2x480 GB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-core-i9-13900",
+      "name": "Выделенный сервер PowerVPS — Core i9-13900, 64 GB DDR5 RAM, 2x2 TB NVMe",
+      "category": "hosting",
+      "price_usd": 110.0,
+      "price_display": "110 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-core-i9-13900",
+      "summary": "Выделенный сервер PowerVPS — Core i9-13900, 64 GB DDR5 RAM, 2x2 TB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-epyc-9455",
+      "name": "Выделенный сервер PowerVPS — AMD EPYC 9455, 128 GB DDR5 ECC, 2x1.92 TB NVMe",
+      "category": "hosting",
+      "price_usd": 405.0,
+      "price_display": "405 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-epyc-9455",
+      "summary": "Выделенный сервер PowerVPS — AMD EPYC 9455, 128 GB DDR5 ECC, 2x1.92 TB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-7-9700x",
+      "name": "Выделенный сервер PowerVPS — Ryzen 7 9700X, 64 GB DDR5 ECC, 2x512 GB NVMe",
+      "category": "hosting",
+      "price_usd": 90.0,
+      "price_display": "90 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-7-9700x",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 7 9700X, 64 GB DDR5 ECC, 2x512 GB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-9-9900x",
+      "name": "Выделенный сервер PowerVPS — Ryzen 9 9900X, 64 GB DDR5 ECC, 2x512 GB NVMe",
+      "category": "hosting",
+      "price_usd": 135.0,
+      "price_display": "135 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-9-9900x",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 9 9900X, 64 GB DDR5 ECC, 2x512 GB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-9-3900",
+      "name": "Выделенный сервер PowerVPS — Ryzen 9 3900, 128 GB RAM, 2x2 TB NVMe",
+      "category": "hosting",
+      "price_usd": 85.0,
+      "price_display": "85 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-9-3900",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 9 3900, 128 GB RAM, 2x2 TB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-7-3700x",
+      "name": "Выделенный сервер PowerVPS — Ryzen 7 3700X, 64 GB RAM, 2x1 TB NVMe",
+      "category": "hosting",
+      "price_usd": 60.0,
+      "price_display": "60 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-7-3700x",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 7 3700X, 64 GB RAM, 2x1 TB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-9-9950x",
+      "name": "Выделенный сервер PowerVPS — Ryzen 9 9950X, 128 GB DDR5 ECC, 2x960 GB NVMe",
+      "category": "hosting",
+      "price_usd": 200.0,
+      "price_display": "200 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-9-9950x",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 9 9950X, 128 GB DDR5 ECC, 2x960 GB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "powervps-dedicated-server-ryzen-9-7950x",
+      "name": "Выделенный сервер PowerVPS — Ryzen 9 7950X, 128 GB DDR5 ECC, 2x2 TB NVMe",
+      "category": "hosting",
+      "price_usd": 165.0,
+      "price_display": "165 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/hosting/powervps-dedicated-server-ryzen-9-7950x",
+      "summary": "Выделенный сервер PowerVPS — Ryzen 9 7950X, 128 GB DDR5 ECC, 2x2 TB NVMe for AI infrastructure, APIs, agents, scrapers, and backend workloads with dedicated resources."
+    },
+    {
+      "slug": "proxy-servers-2500-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 2 500 шт.",
+      "category": "proxy-servers",
+      "price_usd": 62.5,
+      "price_display": "62.5 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-2500-europe-unlimited",
+      "summary": "2 500 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: до 5 000 потоков."
+    },
+    {
+      "slug": "proxy-servers-5000-europe-unlimited",
+      "name": "Прокси-серверы для парсинга — 5 000 шт.",
+      "category": "proxy-servers",
+      "price_usd": 125.0,
+      "price_display": "125 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/proxy-servers/proxy-servers-5000-europe-unlimited",
+      "summary": "5 000 скоростных IPv4 прокси: Европа безлимитный трафик HTTP/SOCKS5 серверная статика. Лимит: до 10 000 потоков."
+    },
+    {
+      "slug": "ai-lead-generation-agent",
+      "name": "AI Lead Generation Agent — автоматический сбор лидов",
+      "category": "agents",
+      "price_usd": 100.0,
+      "price_display": "100 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/agents/ai-lead-generation-agent",
+      "summary": "AI Lead Generation Agent for automated B2B lead generation: collection, filtering, scoring, and reports up to 100 leads per day."
+    },
+    {
+      "slug": "claude-code-api-mini-plus",
+      "name": "Claude Code API — Mini Plus, 1 000 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 50.7,
+      "price_display": "50.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-mini-plus",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-premium-plus",
+      "name": "Claude Code API — Premium Plus, 4 000 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 115.7,
+      "price_display": "115.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-premium-plus",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-premium",
+      "name": "Claude Code API — Premium, 3 000 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 89.7,
+      "price_display": "89.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-premium",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-mini",
+      "name": "Claude Code API — Mini, 500 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 24.7,
+      "price_display": "24.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-mini",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-premium-max",
+      "name": "Claude Code API — Premium Max, 5 000 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 128.7,
+      "price_display": "128.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-premium-max",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-ultimate",
+      "name": "Claude Code API — Ultimate, 8 000 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 219.7,
+      "price_display": "219.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-ultimate",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "claude-code-api-mini-max",
+      "name": "Claude Code API — Mini Max, 1 500 запросов в день",
+      "category": "claude-code-api",
+      "price_usd": 63.7,
+      "price_display": "63.7 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/claude-code-api/claude-code-api-mini-max",
+      "summary": "Claude Code API access for coding agents, repository analysis, review, refactoring, and dev automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-30k",
+      "name": "ChatGPT API 5.5 — 30 000 запросов в день",
+      "category": "chat-api",
+      "price_usd": 200.0,
+      "price_display": "200 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/chat-api/chatgpt-api-55-30k",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-10k",
+      "name": "ChatGPT API 5.5 — 10 000 запросов в день",
+      "category": "chat-api",
+      "price_usd": 100.0,
+      "price_display": "100 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/chat-api/chatgpt-api-55-10k",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "chatgpt-api-55-5k",
+      "name": "ChatGPT API 5.5 — 5 000 запросов в день",
+      "category": "chat-api",
+      "price_usd": 50.0,
+      "price_display": "50 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/chat-api/chatgpt-api-55-5k",
+      "summary": "ChatGPT API 5.5 ASK access for AI assistants, customer replies, analysis, content, and business automation with predictable daily capacity."
+    },
+    {
+      "slug": "gpt-image2-10k",
+      "name": "GPT Image 2 API — 10 000 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 300.0,
+      "price_display": "300 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-10k",
+      "summary": "GPT Image 2 API package for scalable creatives, product cards, ad visuals, and batch visual production."
+    },
+    {
+      "slug": "gpt-image2-3k",
+      "name": "GPT Image 2 API — 3 000 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 90.0,
+      "price_display": "90 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-3k",
+      "summary": "GPT Image 2 API package for scalable creatives, product cards, ad visuals, and batch visual production."
+    },
+    {
+      "slug": "gpt-image2-test-300",
+      "name": "GPT Image 2 API — тестовый тариф 300 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 10.0,
+      "price_display": "10 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-test-300",
+      "summary": "GPT Image 2 API test package for product cards, ads, and visual concepts before scaling."
+    },
+    {
+      "slug": "gpt-image2-5k",
+      "name": "GPT Image 2 API — 5 000 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 150.0,
+      "price_display": "150 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-5k",
+      "summary": "GPT Image 2 API package for scalable creatives, product cards, ad visuals, and batch visual production."
+    },
+    {
+      "slug": "gpt-image2-50k",
+      "name": "GPT Image 2 API — 50 000 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 1500.0,
+      "price_display": "1500 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-50k",
+      "summary": "GPT Image 2 API package for scalable creatives, product cards, ad visuals, and batch visual production."
+    },
+    {
+      "slug": "gpt-image2-1k",
+      "name": "GPT Image 2 API — 1 000 изображений",
+      "category": "generaciya-izobrazheniy",
+      "price_usd": 30.0,
+      "price_display": "30 USD",
+      "availability": "in_stock",
+      "delivery": "manual",
+      "url": "https://neuromedia.cloud/catalog/generaciya-izobrazheniy/gpt-image2-1k",
+      "summary": "GPT Image 2 API package for scalable creatives, product cards, ad visuals, and batch visual production."
+    }
   ]
 }

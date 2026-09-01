@@ -1,6 +1,6 @@
 # Neuromedia — AI Marketplace
 
-[Русский](../README.md) · [Catalog](../content/catalog/catalog.en.json) · [Website](https://neuromedia.cloud/)
+[Русский](../README.md) · [Full catalog](catalog.en.md) · [JSON catalog](../content/catalog/catalog.en.json) · [Website](https://neuromedia.cloud/)
 
 **Neuromedia** is an AI marketplace for business-ready solutions, agents, APIs, and infrastructure. It helps teams select practical AI tools and services for sales, support, content, documents, automation, and production deployment.
 
@@ -25,6 +25,12 @@
 ## Content and updates
 
 Beyond the catalog, Neuromedia publishes **articles, guides, news, and cases** about applied AI. The marketplace evolves to make AI APIs, agents, automation, and infrastructure easier to evaluate.
+
+## Models and products in the showcase
+
+The repository now includes the complete current public assortment: **81 products across 30 categories**. It covers GPT and ChatGPT APIs, Claude and Claude Code APIs, Gemini, Qwen, Flux, Wan, Seedream, Nano Banana, Ideogram, Imagen, GPT Image, Kling, Veo, Runway, Seedance, Grok Imagine, Hailuo, OmniHuman, ElevenLabs, Suno, servers, proxies, and AI agents.
+
+Browse the [full catalog overview](catalog.en.md). Every public offer’s USD price, category, availability label, and marketplace link are in the [JSON catalog](../content/catalog/catalog.en.json).
 
 ## Public catalog
 
