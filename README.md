@@ -1,6 +1,6 @@
 # Neuromedia — AI Marketplace
 
-[English](docs/README.en.md) · [Полный каталог](docs/catalog.md) · [JSON-каталог](content/catalog/catalog.ru.json) · [Сайт](https://neuromedia.cloud/)
+[English](docs/README.en.md) · [Полный каталог](docs/catalog.md) · [JSON-каталог](content/catalog/catalog.ru.json) · [Сайт](https://neuromedia.cloud/) · [Română](docs/README.ro.md)
 
 **Neuromedia** — AI-маркетплейс решений, агентов, API и инфраструктуры для бизнеса. Платформа помогает подобрать готовый AI-инструмент или услугу под практическую задачу: продажи, поддержка, контент, документы, автоматизация и production-запуск.
 
